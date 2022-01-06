@@ -1,17 +1,13 @@
 %%% ----------------------------------------------------------------------------
 %%% pascaltriangle: Typeset Pascal triangle figure with LaTeX3
 %%% Author    : Nan Geng <nangeng@nwafu.edu.cn>
-%%% Repository: https://gitee.com/nwafu_nan/pascaltriangle
-%%% License   : The LaTeX Project Public License 1.3
+%%% Repository: https://github.com/registor/pascaltriangle or https://gitee.com/nwafu_nan/pascaltriangle
+%%% License   : The LaTeX Project Public License 1.3c
 %%% ----------------------------------------------------------------------------
-
-%%% --------------------------------------------------------
-%%  \section{Scratch Variables and Function Variants}
-%%% --------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
 \RequirePackage{expl3}
-\ProvidesExplPackage{pascaltriangle}{2022-01-06}{v1.0.0}
+\ProvidesExplPackage{pascaltriangle}{2022-01-07}{v1.0.0}
   {Typeset Pascal triangle figure with LaTeX3}
 
 \RequirePackage{xparse}
@@ -306,6 +302,8 @@
   }
 
 %% 绘制Pascal三角形
+% 等腰三角形的绘制原理参考了 https://texample.net/tikz/examples/pascal-triangle/
+% Author: M.H. Ahmadi
 \cs_set:Npn \__pascal_triangle_draw:n #1
   {
     % 设置正常单元格为灰色
