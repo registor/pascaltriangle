@@ -1,7 +1,7 @@
 Pascal triangles(Yanghui triangles) generator package based on TikZ developed with LaTeX3.
 =======
 
-`pascaltriangle` a Pascal triangle(Yanghui triangle) generation package based on TikZ developed with LaTeX3, which provides a unique drawing macro `\pascal` and can generate isosceles or right-angle triangles with different macro options or `\pascalset` macro.
+`pascaltriangle` is a Pascal triangle(Yanghui triangle) generation package based on TikZ developed with LaTeX3, which provides a unique drawing macro `\pascal` and can generate isosceles or right-angle triangles with different macro options or `\pascalset` macro.
 
 You can read the manual (in Chinese/English) for more details and examples.
 
